@@ -31,6 +31,7 @@ loadScripts(document, 'script');</script>
 <div class="top-nav" id="navbar-top">
 <div class="skip-nav"><a href="#skip-navbar-top" title="Skip navigation links">Skip navigation links</a></div>
 <ul id="navbar-top-firstrow" class="nav-list" title="Navigation">
+<li><a href="../../../../../../index.html">Overview</a></li>
 <li><a href="package-summary.html">Package</a></li>
 <li class="nav-bar-cell1-rev">Class</li>
 <li><a href="package-tree.html">Tree</a></li>
@@ -131,17 +132,26 @@ loadScripts(document, 'script');</script>
 <div class="table-header col-last">Description</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>double</code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getAzimuth()" class="member-name-link">getAzimuth</a>()</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Calculates the azimuth of this point (the angle in radians
+ from the x-axis)</div>
+</div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code>double</code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#getMagnitude()" class="member-name-link">getMagnitude</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Calculates the magnitude of this point</div>
+</div>
 <div class="col-first even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code>static <a href="Point.html" title="class in io.github.ydlv.javadoc_gh_pages_example.math.cartesian_plane">Point</a></code></div>
 <div class="col-second even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4"><code><a href="#polar(double,double)" class="member-name-link">polar</a><wbr>(double&nbsp;r,
  double&nbsp;theta)</code></div>
-<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last even-row-color method-summary-table method-summary-table-tab1 method-summary-table-tab4">
+<div class="block">Returns a point with the specified polar coordinates.</div>
+</div>
 <div class="col-first odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></code></div>
 <div class="col-second odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4"><code><a href="#toString()" class="member-name-link">toString</a>()</code></div>
-<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">&nbsp;</div>
+<div class="col-last odd-row-color method-summary-table method-summary-table-tab2 method-summary-table-tab4">
+<div class="block">Returns a representation of this point as a string.</div>
+</div>
 </div>
 </div>
 </div>
@@ -206,9 +216,12 @@ loadScripts(document, 'script');</script>
 <section class="detail" id="toString()">
 <h3>toString</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type"><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/String.html" title="class or interface in java.lang" class="external-link">String</a></span>&nbsp;<span class="element-name">toString</span>()</div>
+<div class="block">Returns a representation of this point as a string.</div>
 <dl class="notes">
 <dt>Overrides:</dt>
 <dd><code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html#toString()" title="class or interface in java.lang" class="external-link">toString</a></code>&nbsp;in class&nbsp;<code><a href="https://docs.oracle.com/en/java/javase/17/docs/api/java.base/java/lang/Object.html" title="class or interface in java.lang" class="external-link">Object</a></code></dd>
+<dt>Returns:</dt>
+<dd>"(" + x + ", " + y + ")"</dd>
 </dl>
 </section>
 </li>
@@ -217,18 +230,38 @@ loadScripts(document, 'script');</script>
 <h3>polar</h3>
 <div class="member-signature"><span class="modifiers">public static</span>&nbsp;<span class="return-type"><a href="Point.html" title="class in io.github.ydlv.javadoc_gh_pages_example.math.cartesian_plane">Point</a></span>&nbsp;<span class="element-name">polar</span><wbr><span class="parameters">(double&nbsp;r,
  double&nbsp;theta)</span></div>
+<div class="block">Returns a point with the specified polar coordinates.</div>
+<dl class="notes">
+<dt>Parameters:</dt>
+<dd><code>r</code> - the distance of the point from the origin</dd>
+<dd><code>theta</code> - the angle of the point from the x-axis</dd>
+<dt>Returns:</dt>
+<dd>the point at this polar coordinates</dd>
+</dl>
 </section>
 </li>
 <li>
 <section class="detail" id="getAzimuth()">
 <h3>getAzimuth</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">getAzimuth</span>()</div>
+<div class="block">Calculates the azimuth of this point (the angle in radians
+ from the x-axis)</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the azimuth in radians</dd>
+</dl>
 </section>
 </li>
 <li>
 <section class="detail" id="getMagnitude()">
 <h3>getMagnitude</h3>
 <div class="member-signature"><span class="modifiers">public</span>&nbsp;<span class="return-type">double</span>&nbsp;<span class="element-name">getMagnitude</span>()</div>
+<div class="block">Calculates the magnitude of this point</div>
+<dl class="notes">
+<dt>Returns:</dt>
+<dd>the magnitude of this point, i.e. the distance
+ from this point to the origin</dd>
+</dl>
 </section>
 </li>
 </ul>

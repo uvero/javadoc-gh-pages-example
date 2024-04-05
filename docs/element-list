@@ -1,1 +1,6 @@
 io.github.ydlv.javadoc_gh_pages_example.math.cartesian_plane
+io.github.ydlv.javadoc_gh_pages_example.math.linalg
+io.github.ydlv.javadoc_gh_pages_example.math.numeric_analysis
+io.github.ydlv.javadoc_gh_pages_example.math.numeric_analysis.medium_point
+io.github.ydlv.javadoc_gh_pages_example.math.numeric_analysis.newton
+io.github.ydlv.javadoc_gh_pages_example.math.transformation
