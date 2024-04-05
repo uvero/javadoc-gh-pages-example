@@ -1,8 +1,12 @@
 /**
  * This package contains some small implementations of some math algorithms
  * and data structures. <br/>
- * These should not be used for real world application, as this code
- * is only meant for demonstrating Javadoc.
+ * <p>
+ * <b>
+ * These should not be used for real world application,
+ * as this code is only meant for demonstrating Javadoc.
+ * </b>
+ * </p>
  * <h1>Subpackages</h1>
  * <ul>
  *     <li>
