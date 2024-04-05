@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"io.github.ydlv.javadoc_gh_pages_example.math.cartesian_plane"}];updateSearchResults();
