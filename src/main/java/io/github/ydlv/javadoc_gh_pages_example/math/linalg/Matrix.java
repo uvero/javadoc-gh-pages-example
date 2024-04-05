@@ -277,7 +277,7 @@ public class Matrix {
      * is the product of the numbers on the main diagonal
      * of A.
      * @return The determinant of this matrix
-     * @implNote The implementation is using a recursive formula
+     * Note: The implementation is using a recursive formula
      * based on the {@link #minor(int, int)} method. This has O(n!) time
      * complexity and thus is not recommended for large matrices.
      * There exist polynomial time algorithms that can be used
